@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: #fff;
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cta" id="cta">download</div>
+    <script src="../src/png.browser.js"></script>
+    <!-- <script src="../build/png.browser.min.js"></script> -->
+    <script>
+      const { resolveCTAsize } = png;
+      resolveCTAsize("./cta.png", document.getElementById("cta"));
+    </script>
+  </body>
+</html>

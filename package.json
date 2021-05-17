@@ -1,0 +1,20 @@
+{
+  "name": "resolve-png-transparency",
+  "version": "1.0.0",
+  "main": "build/png.browser.min.js",
+  "repository": "git@gitlab.mobvista.com:playsmart/resolve-png-transparency.git",
+  "author": "jasonpang <jason_pang@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "pngjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "rollup": "^2.48.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
